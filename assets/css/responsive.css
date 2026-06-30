@@ -306,6 +306,38 @@ header{
 
 }
 
+.timeline-item{
+
+    width:100%;
+
+    text-align:left;
+
+    justify-self:start;
+
+}
+
+.timeline-item.left,
+
+.timeline-item.right{
+
+    text-align:left;
+
+}
+
+.timeline-item::before{
+
+    left:-10px;
+
+    right:auto;
+
+}
+
+.timeline-line{
+
+    left:20px;
+
+}
+
 .project-body{
 
     padding:20px;

@@ -7,7 +7,7 @@
     "Embedded Systems"
   ],
   "featured": true,
-  "cover": "cover.webp",
+  "cover": "gallery/1.png",
   "hero": "hero.webp",
 
   "description": "A complete IoT-based smart home automation system that allows users to control appliances remotely using Wi-Fi, a web dashboard, and a mobile-friendly interface.",

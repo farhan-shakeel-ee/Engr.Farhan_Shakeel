@@ -306,6 +306,12 @@ header{
 
 }
 
+.timeline-wrapper{
+
+    padding-left:1.8rem;
+
+}
+
 .timeline-item{
 
     width:100%;
@@ -313,6 +319,8 @@ header{
     text-align:left;
 
     justify-self:start;
+
+    padding:0;
 
 }
 
@@ -322,19 +330,29 @@ header{
 
     text-align:left;
 
+    padding:0;
+
 }
 
 .timeline-item::before{
 
-    left:-10px;
+    left:12px;
 
     right:auto;
+
+    top:2rem;
 
 }
 
 .timeline-line{
 
-    left:20px;
+    left:12px;
+
+}
+
+.timeline-content{
+
+    margin-left:2.4rem;
 
 }
 

@@ -10,56 +10,28 @@
 
                 {
                     "name": "C/C++",
-                    "level": 50
+                    "level": 70
                 },
 
                 {
                     "name": "Python",
-                    "level": 95
-                },
-
-                {
-                    "name": "JavaScript",
-                    "level": 88
-                },
-
-                {
-                    "name": "MATLAB",
-                    "level": 82
-                }
-
-            ]
-        },
-
-        {
-            "title": "Artificial Intelligence",
-
-            "icon": "fa-solid fa-brain",
-
-            "skills": [
-
-                {
-                    "name": "Machine Learning",
                     "level": 90
                 },
 
                 {
-                    "name": "Deep Learning",
-                    "level": 82
+                    "name": "System Verilog",
+                    "level": 90
                 },
 
                 {
-                    "name": "Computer Vision",
-                    "level": 80
-                },
-
-                {
-                    "name": "TensorFlow",
-                    "level": 85
+                    "name": "MATLAB",
+                    "level": 40
                 }
 
             ]
         },
+
+       
 
         {
             "title": "Embedded Systems",
@@ -70,22 +42,22 @@
 
                 {
                     "name": "Arduino",
-                    "level": 98
+                    "level": 90
                 },
 
                 {
                     "name": "ESP32",
-                    "level": 95
+                    "level": 90
                 },
 
                 {
                     "name": "STM32",
-                    "level": 80
+                    "level": 30
                 },
 
                 {
                     "name": "Raspberry Pi",
-                    "level": 82
+                    "level": 0
                 }
 
             ]
@@ -105,17 +77,17 @@
 
                 {
                     "name": "Circuit Design",
-                    "level": 95
+                    "level": 65
                 },
 
                 {
                     "name": "Power Electronics",
-                    "level": 82
+                    "level": 10
                 },
 
                 {
-                    "name": "Simulation",
-                    "level": 90
+                    "name": "Verification & Testing",
+                    "level": 60
                 }
 
             ]
@@ -131,25 +103,55 @@
                 {
                     "name": "Git",
 
-                    "level": 90
+                    "level": 70
                 },
 
                 {
                     "name": "Linux",
 
-                    "level": 85
+                    "level": 80
                 },
 
                 {
-                    "name": "Firebase",
+                    "name": "KiCad",
 
-                    "level": 82
+                    "level": 95 
                 },
 
                 {
-                    "name": "SQL",
+                    "name": "Altium Designer",
 
                     "level": 80
+                }
+
+            ]
+        },
+
+         {
+            "title": "Others",
+
+            "icon": "fa-solid fa-brain",
+
+            "skills": [
+
+                {
+                    "name": "Web Development",
+                    "level": 80
+                },
+
+                {
+                    "name": "Video Editing",
+                    "level": 70
+                },
+
+                {
+                    "name": "Graphic Designing",
+                    "level": 60
+                },
+
+                {
+                    "name": "MS Office",
+                    "level": 75
                 }
 
             ]

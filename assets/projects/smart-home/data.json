@@ -1,0 +1,84 @@
+{
+  "id": "smart-home",
+  "title": "Smart Home Automation System",
+  "subtitle": "IoT Based Home Automation using ESP32",
+  "category": [
+    "IoT",
+    "Embedded Systems"
+  ],
+  "featured": true,
+  "cover": "cover.webp",
+  "hero": "hero.webp",
+
+  "description": "A complete IoT-based smart home automation system that allows users to control appliances remotely using Wi-Fi, a web dashboard, and a mobile-friendly interface.",
+
+  "overview": "This project uses an ESP32 microcontroller to control electrical appliances over Wi-Fi. It includes relay control, sensor monitoring, real-time updates, and a responsive dashboard for managing connected devices.",
+
+  "technologies": [
+    "ESP32",
+    "Arduino",
+    "C++",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Firebase"
+  ],
+
+  "duration": "3 Months",
+
+  "gallery": [
+    "gallery/1.webp",
+    "gallery/2.webp",
+    "gallery/3.webp",
+    "gallery/4.webp"
+  ],
+
+  "videos": [
+    "videos/demo.mp4"
+  ],
+
+  "documents": [
+    {
+      "title": "Project Report",
+      "file": "files/report.pdf"
+    }
+  ],
+
+  "features": [
+    "Wi-Fi Based Remote Control",
+    "Real-Time Sensor Monitoring",
+    "Relay Automation",
+    "Responsive Dashboard",
+    "Over-the-Air Updates",
+    "Energy Consumption Monitoring"
+  ],
+
+  "specifications": {
+    "Controller": "ESP32",
+    "Programming Language": "C++",
+    "Connectivity": "Wi-Fi",
+    "Power Supply": "5V DC",
+    "Platform": "Arduino IDE",
+    "Database": "Firebase",
+    "Interface": "Web Dashboard"
+  },
+
+  "challenges": [
+    "Maintaining stable Wi-Fi connectivity",
+    "Reducing relay switching delay",
+    "Ensuring secure communication",
+    "Optimizing power consumption"
+  ],
+
+  "future": [
+    "Voice Assistant Integration",
+    "Mobile Application",
+    "AI-Based Energy Optimization",
+    "Cloud Analytics Dashboard"
+  ],
+
+  "links": {
+    "github": "https://github.com/yourusername/smart-home",
+    "demo": "https://your-demo-link.com"
+  }
+}

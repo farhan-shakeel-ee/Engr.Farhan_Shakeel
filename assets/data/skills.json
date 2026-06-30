@@ -1,0 +1,159 @@
+{
+    "categories": [
+
+        {
+            "title": "Programming",
+
+            "icon": "fa-solid fa-code",
+
+            "skills": [
+
+                {
+                    "name": "C++",
+                    "level": 90
+                },
+
+                {
+                    "name": "Python",
+                    "level": 95
+                },
+
+                {
+                    "name": "JavaScript",
+                    "level": 88
+                },
+
+                {
+                    "name": "MATLAB",
+                    "level": 82
+                }
+
+            ]
+        },
+
+        {
+            "title": "Artificial Intelligence",
+
+            "icon": "fa-solid fa-brain",
+
+            "skills": [
+
+                {
+                    "name": "Machine Learning",
+                    "level": 90
+                },
+
+                {
+                    "name": "Deep Learning",
+                    "level": 82
+                },
+
+                {
+                    "name": "Computer Vision",
+                    "level": 80
+                },
+
+                {
+                    "name": "TensorFlow",
+                    "level": 85
+                }
+
+            ]
+        },
+
+        {
+            "title": "Embedded Systems",
+
+            "icon": "fa-solid fa-microchip",
+
+            "skills": [
+
+                {
+                    "name": "Arduino",
+                    "level": 98
+                },
+
+                {
+                    "name": "ESP32",
+                    "level": 95
+                },
+
+                {
+                    "name": "STM32",
+                    "level": 80
+                },
+
+                {
+                    "name": "Raspberry Pi",
+                    "level": 82
+                }
+
+            ]
+        },
+
+        {
+            "title": "Electronics",
+
+            "icon": "fa-solid fa-bolt",
+
+            "skills": [
+
+                {
+                    "name": "PCB Design",
+                    "level": 92
+                },
+
+                {
+                    "name": "Circuit Design",
+                    "level": 95
+                },
+
+                {
+                    "name": "Power Electronics",
+                    "level": 82
+                },
+
+                {
+                    "name": "Simulation",
+                    "level": 90
+                }
+
+            ]
+        },
+
+        {
+            "title": "Software",
+
+            "icon": "fa-solid fa-laptop-code",
+
+            "skills": [
+
+                {
+                    "name": "Git",
+
+                    "level": 90
+                },
+
+                {
+                    "name": "Linux",
+
+                    "level": 85
+                },
+
+                {
+                    "name": "Firebase",
+
+                    "level": 82
+                },
+
+                {
+                    "name": "SQL",
+
+                    "level": 80
+                }
+
+            ]
+        }
+
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "smart-home",
+      "folder": "smart-home"
+    },
+    {
+      "id": "robot-arm",
+      "folder": "robot-arm"
+    },
+    {
+      "id": "line-follower",
+      "folder": "line-follower"
+    },
+    {
+      "id": "gesture-car",
+      "folder": "gesture-car"
+    }
+  ]
+}

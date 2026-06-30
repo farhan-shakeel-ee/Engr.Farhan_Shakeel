@@ -27,10 +27,9 @@
   "duration": "3 Months",
 
   "gallery": [
-    "gallery/1.webp",
-    "gallery/2.webp",
-    "gallery/3.webp",
-    "gallery/4.webp"
+    "gallery/1.png",
+    "gallery/2.png",
+    "gallery/3.png"
   ],
 
   "videos": [

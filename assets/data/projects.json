@@ -1,13 +1,15 @@
 {
   "projects": [
+
+    {
+      "id": "Memory_Controller",
+      "folder": "Memory_Controller"
+    },
     {
       "id": "smart-home",
       "folder": "smart-home"
-    },
-
-     {
-      "id": "Memory_Controller",
-      "folder": "Memory_Controller"
     }
+
+ 
   ]
 }

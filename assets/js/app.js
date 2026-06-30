@@ -24,6 +24,35 @@ const App = {
 
         this.initParticles();
 
+        // Add to App.init()
+this.initCursor();
+
+// Add this method:
+initCursor() {
+    const cursor = document.querySelector('.cursor');
+    const dot = document.querySelector('.cursor-dot');
+    
+    if (!cursor || !dot) return;
+    
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.clientX - 15 + 'px';
+        cursor.style.top = e.clientY - 15 + 'px';
+        dot.style.left = e.clientX - 3 + 'px';
+        dot.style.top = e.clientY - 3 + 'px';
+    });
+    
+    document.querySelectorAll('a, button, .project-card').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            cursor.classList.add('hover');
+            dot.classList.add('hover');
+        });
+        el.addEventListener('mouseleave', () => {
+            cursor.classList.remove('hover');
+            dot.classList.remove('hover');
+        });
+    });
+}
+
     },
 
     cacheDOM(){

@@ -548,5 +548,18 @@
        <script src="assets/js/app.js"></script>
        <script src="assets/js/skills.js"></script>
        <script src="assets/js/gallery.js"></script>
+       <script>
+           // Initialize the app when DOM is ready
+           window.addEventListener('DOMContentLoaded', () => {
+               if (typeof App !== 'undefined') {
+                   App.init();
+               }
+               // Hide loader
+               const loader = document.getElementById('loader');
+               if (loader) {
+                   loader.style.display = 'none';
+               }
+           });
+       </script>
 </body>
 </html>

@@ -121,11 +121,13 @@ async function loadProjects(){
 
     try{
 
-        const folders = await Helpers.getJSON(
+        const response = await Helpers.getJSON(
 
             CONFIG.DATA_FILE
 
         );
+
+        const folders = response.projects.map(p => p.folder);
 
         const loadedProjects = [];
 

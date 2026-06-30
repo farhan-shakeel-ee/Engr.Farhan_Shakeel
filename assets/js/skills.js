@@ -1,20 +1,27 @@
 "use strict";
 
-const skillsContainer = document.getElementById("skillsContainer");
-
 async function loadSkills(){
 
-    if(!skillsContainer) return;
+    const skillsContainer = document.getElementById("skillsContainer");
+    if(!skillsContainer){
+        console.warn("Skills container not found: #skillsContainer");
+        return;
+    }
 
-    const response = await fetch("assets/data/skills.json");
-
-    const data = await response.json();
-
-    renderSkills(data.categories);
+    try {
+        const response = await fetch("./assets/data/skills.json");
+        if(!response.ok){
+            throw new Error(`HTTP ${response.status} ${response.statusText}`);
+        }
+        const data = await response.json();
+        renderSkills(data.categories, skillsContainer);
+    } catch (error) {
+        console.error("Failed to load skills:", error);
+    }
 
 }
 
-function renderSkills(categories){
+function renderSkills(categories, skillsContainer){
 
     skillsContainer.innerHTML = "";
 
@@ -23,6 +30,7 @@ function renderSkills(categories){
         const card=document.createElement("div");
 
         card.className="skill-category glass-card fade-up";
+        card.classList.add("show");
 
         card.innerHTML=`
 

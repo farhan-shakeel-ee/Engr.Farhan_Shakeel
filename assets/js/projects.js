@@ -562,7 +562,7 @@ function createProjectCard(project){
 
 function renderFeaturedProject(){
 
-    if(!ProjectApp.featuredProject){
+    if(!ProjectApp.featuredProject || !DOM.featured){
 
         return;
 

@@ -1,40 +1,35 @@
 {
   "id": "smart-home",
   "title": "Smart Home Automation System",
-  "subtitle": "IoT Based Home Automation using ESP32",
+  "subtitle": "ESP32-Based IoT Project for Home Automation",
   "category": [
     "IoT",
     "Embedded Systems"
   ],
   "featured": true,
-  "cover": "cover.webp",
-  "hero": "hero.webp",
+  "cover": "gallery/cover.png",
+  "hero": "gallery/1.png",
 
-  "description": "A complete IoT-based smart home automation system that allows users to control appliances remotely using Wi-Fi, a web dashboard, and a mobile-friendly interface.",
+  "description": "A complete esp32-based smart home automation system that allows users to control appliances remotely using Wi-Fi, bluetooth, and motion sensors.",
 
-  "overview": "This project uses an ESP32 microcontroller to control electrical appliances over Wi-Fi. It includes relay control, sensor monitoring, real-time updates, and a responsive dashboard for managing connected devices.",
+  "overview": "This project uses an ESP32 microcontroller to control electrical appliances over Bluetooth. It includes relay modules, sensor monitoring, real-time updates, and a responsive dashboard for managing connected devices.",
 
   "technologies": [
     "ESP32",
-    "Arduino",
-    "C++",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Firebase"
+    "sensors",
+    "Buzzer",
+    "Relay Module",
+    "BMS",
+    "Battery"
   ],
 
-  "duration": "3 Months",
-
   "gallery": [
-    "gallery/1.webp",
-    "gallery/2.webp",
-    "gallery/3.webp",
-    "gallery/4.webp"
+    "gallery/cover.png",
+    "gallery/2.png",
+    "gallery/3.png"
   ],
 
   "videos": [
-    "videos/demo.mp4"
   ],
 
   "documents": [
@@ -56,11 +51,9 @@
   "specifications": {
     "Controller": "ESP32",
     "Programming Language": "C++",
-    "Connectivity": "Wi-Fi",
+    "Connectivity": "Bluetooth, Wi-Fi",
     "Power Supply": "5V DC",
-    "Platform": "Arduino IDE",
-    "Database": "Firebase",
-    "Interface": "Web Dashboard"
+    "Platform": "PlatformIO"
   },
 
   "challenges": [
@@ -74,11 +67,11 @@
     "Voice Assistant Integration",
     "Mobile Application",
     "AI-Based Energy Optimization",
-    "Cloud Analytics Dashboard"
+    "Cloud Analytics Dashboard" 
   ],
 
   "links": {
-    "github": "https://github.com/yourusername/smart-home",
-    "demo": "https://your-demo-link.com"
+    "github": "https://github.com/farhan-shakeel-ee",
+    "demo": "https://github.com/farhan-shakeel-ee"
   }
 }
